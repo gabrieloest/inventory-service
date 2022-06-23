@@ -22,4 +22,7 @@ public class Inventory {
     private String skuCode;
     private Integer quantity;
 
+    public boolean isInStock() {
+        return quantity > 0;
+    }
 }
